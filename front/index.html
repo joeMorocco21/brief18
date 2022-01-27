@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <button class="btn btn-warning mt-3 ml-5" id="getData">Get Data</button>
+        <button class="btn btn-success mt-3 ml-5" id="getMean">Means of price by city</button>
+        <button class="btn btn-warning mt-3 ml-5" id="getStd">Standard deviation of price by city</button>
+        <table class="table mt-3 ml-5 tdata" id="tb1">
+            <thead>
+              <tr>
+                <th scope="col">id_lot</th>
+                <th scope="col">nb_piece</th>
+                <th scope="col">typologie</th>
+                <th scope="col">prix_tva_reduite</th>
+                <th scope="col">prix_tva_normale</th>
+                <th scope="col">prix_HT</th>
+                <th scope="col">prix_m2_HT</th>
+                <th scope="col">prix_m2_TTC</th>
+                <th scope="col">surface</th>
+                <th scope="col">etage</th>
+                <th scope="col">orientation</th>
+                <th scope="col">exterieur</th>
+                <th scope="col">balcony</th>
+                <th scope="col">garden</th>
+                <th scope="col">parking</th>
+                <th scope="col">nom_programme</th>
+                <th scope="col">ville</th>
+                <th scope="col">departement</th>
+                <th scope="col">date_fin_programme</th>
+                <th scope="col">adresse_entiere</th>
+                <th scope="col">promoteur</th>
+                <th scope="col">date_extraction</th>       
+              </tr>
+            </thead>
+            <tbody id="tb">
+
+ 
+            </tbody>
+          </table>
+          <table class="table mt-3 ml-5 tmeans" id="tb2">
+            <thead>
+              <tr>
+                <th scope="col">City</th>
+                <th scope="col">Mean of price</th>       
+              </tr>
+            </thead>
+            <tbody id="tbod">
+
+ 
+            </tbody>
+          </table>
+          <table class="table mt-3 ml-5 tstd" id="tb3">
+            <thead>
+              <tr>
+                <th scope="col">City</th>
+                <th scope="col">Standard deviation of price</th>       
+              </tr>
+            </thead>
+            <tbody id="tbo">
+
+ 
+            </tbody>
+          </table>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+</html>
