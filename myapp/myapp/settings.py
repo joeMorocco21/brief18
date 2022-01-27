@@ -88,11 +88,11 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         "ENGINE": "mssql",
-        "NAME": "bdd",
-        "USER": "adminyoussef",
-        "PASSWORD": "641979Ab",
-        "HOST": "sqlyoussef.database.windows.net",
-        "PORT": "1433",
+        "NAME": "***",
+        "USER": "***",
+        "PASSWORD": "***",
+        "HOST": "***",
+        "PORT": "***",
         "OPTIONS": {"driver": "ODBC Driver 17 for SQL Server", 
         },
     }
